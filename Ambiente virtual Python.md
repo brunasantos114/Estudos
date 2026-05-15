@@ -1,5 +1,19 @@
 # Gerenciando Projetos Python com UV no VS Code
 
+## Por que fazer isso?
+ 
+Imagine que cada projeto Python é como uma **obra de construção**. Cada obra precisa de ferramentas específicas — e você não quer misturar as ferramentas da obra A com as da obra B, senão vira bagunça.
+ 
+O problema é que, por padrão, quando você instala uma biblioteca Python (como o Pandas ou o Requests), ela vai para um lugar único no seu computador — compartilhado por todos os seus projetos. É como se todos os pedreiros da cidade usassem a mesma caixa de ferramentas. Funciona por um tempo, mas cedo ou tarde versões incompatíveis se chocam e algo quebra.
+ 
+A solução é criar um **ambiente virtual** para cada projeto: uma caixa de ferramentas própria, isolada, que só aquele projeto usa.
+ 
+O **UV** é o gerenciador que faz isso de forma rápida e organizada. Ele também registra exatamente quais ferramentas (bibliotecas) e em quais versões o projeto usa — para que qualquer pessoa consiga rodar o mesmo código no computador dela sem surpresas.
+ 
+> **Resumindo:** UV + ambiente virtual = cada projeto vive no seu próprio espaço, sem interferir nos outros, e qualquer pessoa consegue reproduzir o ambiente idêntico ao seu.
+ 
+---
+
 ## Passo 1: Instalação
 
 Abra o terminal do VS Code (`Ctrl + J`) e utilize o PowerShell para colar o comando de instalação do UV para Windows:
